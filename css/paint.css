@@ -1,0 +1,38 @@
+
+body {
+    font-family: 'Schoolbell', cursive;
+    padding: 0;
+    margin: 50px;
+    background-color: #F1F1F1;
+}
+
+.container {
+    width: 640px;
+    margin: auto;
+}
+
+.info{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.bigBox {
+    height: 316px;
+    width: 600px;
+    border: 3px solid darkgray;
+    cursor: copy;
+    margin: auto;
+    background-color: white;
+}
+
+.box {
+    height: 4px;
+    width: 4px;
+    float: left;
+    background-color: white;
+}
+
+
+
+
