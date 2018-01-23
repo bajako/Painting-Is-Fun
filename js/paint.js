@@ -37,4 +37,18 @@ document.addEventListener( 'DOMContentLoaded', function () {
     document.querySelectorAll('.box').forEach(function (d) {
         d.addEventListener('mouseup', paintStop);
     });
+
+    //Try again option//
+
+    function refresh(){
+        location.reload();
+        preventDefault();
+
+    }
+
+    var reload = document.getElementById('reload');
+
+        reload.addEventListener('click', refresh);
+
+
 });
